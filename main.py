@@ -174,7 +174,3 @@ def show_multiple():
 # ------------------------------
 if __name__ == '__main__':
     app.run(debug=True)
-        return f"<h3>❌ Erreur : {str(e)}</h3>", 500
-
-if __name__ == '__main__':
-    app.run(debug=True)
