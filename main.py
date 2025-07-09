@@ -4,9 +4,9 @@ import requests
 app = Flask(__name__)
 
 # Config
-TRACCAR_URL = 'https://map.gpstraccar.xyz'
-TRACCAR_USER = 'hassanzorkot204@gmail.com'
-TRACCAR_PASS = 'hassan@2004'
+TRACCAR_URL = 'http://freely-teaching-falcon.ngrok-free.app/'
+TRACCAR_USER = 'nesrineammar48@gmail.com'
+TRACCAR_PASS = 'Nsmn1407'
 
 # ------------------------------
 # 🟢 Route 1 : Carte pour UN seul IMEI
