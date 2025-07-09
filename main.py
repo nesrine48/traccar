@@ -61,13 +61,13 @@ def show_map(imei):
                 }}).addTo(map);
 
                 const truckIcon = L.icon({{
-                    iconUrl: 'https://cdn-icons-png.flaticon.com/512/846/846338.png',
+                    iconUrl: 'https://cdn-icons-png.flaticon.com/512/3097/3097144.png',
                     iconSize: [40, 40],
                     iconAnchor: [20, 20]
                 }});
 
                 const marker = L.marker([{lat}, {lon}], {{ icon: truckIcon }}).addTo(map)
-                    .bindPopup("🚚 {device_name}").openPopup();
+                    .bindPopup("🚗 {device_name}").openPopup();
             </script>
         </body>
         </html>
